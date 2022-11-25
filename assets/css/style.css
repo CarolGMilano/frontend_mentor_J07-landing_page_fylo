@@ -1,0 +1,32 @@
+@import url("mobile/body.css");
+@import url("mobile/header.css");
+@import url("mobile/main.css");
+@import url("mobile/main-destaque.css");
+@import url("mobile/main-sobre.css");
+@import url("mobile/main-subscribe.css");
+@import url("mobile/footer.css");
+
+@import url("desktop/header.css");
+@import url("desktop/main-destaque.css");
+@import url("desktop/main-sobre.css");
+@import url("desktop/main-subscribe.css");
+@import url("desktop/footer.css");
+
+@import url("max-screen/body.css");
+@import url("max-screen/header.css");
+@import url("max-screen/main.css");
+@import url("max-screen/footer.css");
+
+:root {
+    --azul: hsl(224, 93%, 58%);
+    --branco: hsl(0, 0%, 100%);
+    --branco_acinzentado: hsl(240, 75%, 98%);
+    --cinza_claro: hsl(0, 0%, 75%);
+    --lilas: hsl(238, 22%, 44%);
+    --preto_azulado: hsl(243, 87%, 12%);
+    --turquesa: hsl(170, 45%, 43%);
+    --vermelho: hsl(0, 44%, 55%);
+
+    --fonte_principal: 'Open Sans', sans-serif;
+    --fonte_secundaria: 'Raleway', sans-serif;
+}

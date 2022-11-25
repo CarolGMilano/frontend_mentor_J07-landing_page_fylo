@@ -1,0 +1,40 @@
+.corpo__subscribe {
+    background-color: var(--lilas);
+}
+
+.subscribe__background {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+    padding: 4rem 2.5rem; 
+}
+
+.subscribe__container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.subscribe__container .container__titulo {
+    text-align: center;
+    color: var(--branco);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.subscribe__container .container__descricao {
+    text-align: center;
+    font-size: 15px;
+    color: var(--branco);
+}
+
+.corpo__subscribe .erro__subscribe {
+    font-size: 13px;
+    color: var(--branco);
+}
+
+.corpo__subscribe .inputs__btn {
+    font-size: 13px;
+    font-weight: 400;
+    box-shadow: rgb(53, 52, 52) 0px 1px 3px;
+}

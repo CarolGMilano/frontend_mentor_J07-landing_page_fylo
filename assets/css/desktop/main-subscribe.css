@@ -1,0 +1,35 @@
+@media screen and (min-width: 800px) {
+    .subscribe__background {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .subscribe__container {
+        width: 396px;
+    }
+
+    .subscribe__container .container__titulo {
+        text-align: start;
+        font-size: 22px;
+    }
+
+    .subscribe__container .container__descricao {
+        text-align: start;
+        font-size: 13px;
+    }
+
+    .corpo__subscribe .subscribe__inputs {
+        padding: 0;
+        row-gap: 0;
+    }
+
+    .corpo__subscribe .inputs__email {
+        width: 400px;
+    }
+    
+    .corpo__subscribe .inputs__btn {
+        margin-top: .8rem;
+        width: 170px;
+    }
+}

@@ -1,0 +1,41 @@
+@media screen and (min-width: 800px) {
+    .sobre__brackground {
+        flex-direction: row-reverse;
+        padding: 3rem 0 6rem 0;
+        align-items: center;
+    }
+
+    .sobre__img {
+        width: 44%;
+        padding: 0;
+        height: 300px;
+    }
+
+    .sobre__container {
+        width: 56%;
+        padding: 0 0 0 3rem;
+    }
+
+    .sobre__container .container__titulo {
+        text-align: start;
+        font-size: 31px;
+    }
+
+    .sobre__container .container__descricao {
+        font-size: 13px;
+        width: 430px;
+    }
+
+    .sobre__container .container__saibaMais {
+        align-self: flex-start;
+    }
+
+    .container__feedback {
+        align-self: flex-start;  
+        width: 300px;
+    }
+    
+    .container__feedback .feedback__descricao {
+        font-size: 11px;
+    }
+}

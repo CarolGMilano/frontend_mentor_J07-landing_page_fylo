@@ -1,0 +1,100 @@
+.rodape {
+    background-color: var(--preto_azulado);
+}
+
+.rodape__background {
+    display: flex;
+    flex-direction: column;
+    padding: 3.5rem 2rem;
+    row-gap: 2rem;
+}
+
+.rodape__flex {
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+}
+
+.rodape__info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+
+.rodape__link,
+.rodape__logo {
+    width: 170px;
+    height: auto;
+}
+
+.rodape__info address {
+    display: flex;
+    flex-direction: column;
+    row-gap: .7rem;
+}
+
+.rodape__info address .info__tel,
+.rodape__info address .info__email {
+    color: var(--branco);
+    font-style: normal;
+    font-size: 15px;
+}
+
+.rodape__info address .info__tel {
+    background: url("../../img/icon-phone.svg") no-repeat;
+    background-size: 15px;
+    background-position: center left;
+    padding-left: 2rem;
+}
+
+.rodape__info address .info__email {
+    background: url("../../img/icon-email.svg") no-repeat;
+    background-size: 17px;
+    background-position: center left;
+    padding-left: 2rem;
+}
+
+.rodape__nav ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: .8rem;
+}
+
+.rodape__nav .nav__link {
+    font-size: 14px;
+    color: var(--branco);
+}
+
+.rodape__nav .nav__link:hover {
+    color: var(--lilas);
+}
+
+.rodape__social {
+    display: flex;
+    column-gap: .8rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.social__link {
+    width: 30px;
+    height: 30px;
+    border: 1px solid var(--branco);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social__link svg {
+    width: 16px;
+    height: 16px;
+    fill: var(--branco);
+    margin: 7px;
+}
+
+.social__link:hover svg,
+.social__link:hover {
+    fill: var(--lilas);
+    border-color: var(--lilas);
+}

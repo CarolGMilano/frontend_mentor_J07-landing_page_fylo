@@ -1,0 +1,52 @@
+.corpo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+
+/*****************************************/
+
+.destaque__container .container__input,
+.corpo__subscribe .subscribe__inputs {
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem;
+    row-gap: 1rem;
+}
+
+.destaque__container .input__email, 
+.destaque__container .input__btn,
+.corpo__subscribe .inputs__email,
+.corpo__subscribe .inputs__btn {
+    border-radius: 3px;
+}
+
+.destaque__container .input__email,
+.corpo__subscribe .inputs__email {
+    padding: .6rem 1.5rem;
+    border: none;
+    outline-width: 1px;
+    outline-style: solid; 
+}
+
+.destaque__container .input__btn,
+.corpo__subscribe .inputs__btn {
+    padding: .6rem 0;
+    border: none;
+    background-color: var(--azul);
+    font-family: var(--fonte_secundaria);
+    color: var(--branco);
+}
+
+.destaque__container .input__email::placeholder,
+.subscribe__inputs .inputs__email::placeholder {
+    font-family: var(--fonte_secundaria);
+    color: var(--cinza_claro);
+}
+
+.destaque__container .input__btn:hover,
+.corpo__subscribe .inputs__btn:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+

@@ -1,0 +1,16 @@
+@media screen and (min-width: 1000px) {
+    .corpo__destaque,
+    .corpo__sobre,
+    .corpo__subscribe {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .corpo__background,
+    .sobre__brackground,
+    .subscribe__background {
+        width: 1000px;
+    }
+}

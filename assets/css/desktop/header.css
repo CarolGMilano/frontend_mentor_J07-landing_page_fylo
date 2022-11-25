@@ -1,0 +1,9 @@
+@media screen and (min-width: 800px) {
+    .cabecalho {
+        padding: 3rem;
+    }
+
+    .cabecalho__logo .logo__img {
+        width: 120px;
+    }
+}

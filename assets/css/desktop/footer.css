@@ -1,0 +1,22 @@
+@media screen and (min-width: 800px) {
+    .rodape__flex {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .rodape__link,
+    .rodape__logo {
+        width: 110px;
+        height: auto;
+    }
+
+    .rodape__nav .nav__link {
+        font-size: 13px;
+    } 
+
+    .social__link svg {
+        width: 14px;
+        height: 14px;
+    }
+}

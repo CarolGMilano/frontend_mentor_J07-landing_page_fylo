@@ -1,0 +1,59 @@
+@media screen and (min-width: 800px) {
+    .corpo__destaque {
+        background: url("../../img/bg-curve-desktop.svg") no-repeat;
+        background-size: contain;
+        background-position: bottom;
+    }
+
+    .corpo__background {
+        flex-direction: row-reverse;
+        padding: 0 0 12rem 0;
+        align-items: center;
+    }
+
+    .destaque__img {
+        width: 50%;
+        padding: 0;
+        height: 300px;
+    }
+
+    .destaque__container {
+        width: 50%;
+        padding: 0 0 0 3rem;
+    }
+
+    .destaque__container .container__titulo {
+        text-align: start;
+        font-size: 28px;
+        line-height: 2.5rem;
+    }
+
+    .destaque__container .container__descricao {
+        text-align: start;
+        font-size: 14px;
+        padding: 0;
+    }
+
+    .destaque__container .container__input {
+        flex-direction: row;
+        padding: 0;
+        position: relative;
+    }
+    
+    .destaque__container .erro__destaque {
+        color: var(--vermelho);
+        position: absolute;
+        font-size: 13px;
+        bottom: -25px;
+        left: 0;
+    }
+
+    .destaque__container .input__email {
+        width: 230px;
+        margin-right: 1rem;
+    }
+
+    .destaque__container .input__btn {
+        width: 160px;
+    }
+}

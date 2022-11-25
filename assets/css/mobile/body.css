@@ -1,0 +1,21 @@
+body {
+    background-color: var(--branco);
+    font-family: var(--fonte_principal);
+    font-size: 1rem;
+}
+
+.none {
+    display: none;
+}
+
+.block {
+    display: block;
+}
+
+.bordaVermelha {
+    outline-color: var(--vermelho);
+}
+
+.bordaNormal {
+    outline-color: var(--preto_azulado);
+}
