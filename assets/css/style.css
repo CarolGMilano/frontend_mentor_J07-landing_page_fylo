@@ -20,7 +20,7 @@
 :root {
     --azul: hsl(224, 93%, 58%);
     --branco: hsl(0, 0%, 100%);
-    --branco_acinzentado: hsl(240, 75%, 98%);
+    --branco_acinzentado: #f8f8fe;
     --cinza_claro: hsl(0, 0%, 75%);
     --lilas: hsl(238, 22%, 44%);
     --preto_azulado: hsl(243, 87%, 12%);
